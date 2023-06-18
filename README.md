@@ -1,11 +1,11 @@
-About r-tuneranger
-==================
+About r-tuneranger-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tuneranger-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=tuneRanger
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tuneranger-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tuning random forest with one line. The package is mainly based on the packages 'ranger' and 'mlrMBO'.
 
