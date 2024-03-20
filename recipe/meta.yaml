@@ -1,4 +1,4 @@
-{% set version = '0.5' %}
+{% set version = "0.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tuneRanger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tuneRanger/tuneRanger_{{ version }}.tar.gz
-  sha256: a60cd0a05d0a95a7e4f3b836bfa34777d585d0df88332ea5e006ebe31046c7f5
+  sha256: 68ca53c90ce093961e6114b9ac7adbc17a44ebccd28fbe88b6f20a481ec71a9e
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
 
   rpaths:
@@ -57,8 +57,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=tuneRanger
   license: GPL-3
-  summary: Tuning random forest with one line. The package is mainly based on the packages 'ranger'
-    and 'mlrMBO'.
+  summary: Tuning random forest with one line. The package is mainly based on the packages 'ranger' and 'mlrMBO'.
 
   license_family: GPL3
   license_file:
