@@ -1,6 +1,5 @@
 {% set version = "0.7" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tuneranger
@@ -13,8 +12,7 @@ source:
   sha256: 68ca53c90ce093961e6114b9ac7adbc17a44ebccd28fbe88b6f20a481ec71a9e
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
 
   rpaths:
