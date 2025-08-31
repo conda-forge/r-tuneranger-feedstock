@@ -1,4 +1,4 @@
-{% set version = "0.7" %}
+{% set version = "0.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tuneRanger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tuneRanger/tuneRanger_{{ version }}.tar.gz
-  sha256: 68ca53c90ce093961e6114b9ac7adbc17a44ebccd28fbe88b6f20a481ec71a9e
+  sha256: 9a95253107c0f0a3aceaeea874aa3ee9362961c565818d890778bf6ef8a75aa6
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
   rpaths:
